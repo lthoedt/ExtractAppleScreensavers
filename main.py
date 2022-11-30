@@ -85,6 +85,8 @@ class Downloader:
 
 
 def main():
+    global screenSaversPath
+    
     screenSavers : Dict[str, Screensaver] = []
 
     screenSaversPath = askdirectory(title='Select Folder to store the screensavers in.')
